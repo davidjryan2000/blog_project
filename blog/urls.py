@@ -1,6 +1,6 @@
 from django.conf.urls import url
-import views
+from blog.views import post_list
 
 urlpatterns = [
-        url(r'^blog/$,views.post_list')
+        url(r'^blog/$',post_list)
 ]
