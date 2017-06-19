@@ -24,4 +24,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^blog/',include(blog_urls)),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT})
+   
 ]
