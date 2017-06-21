@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'disqus',
     'django_forms_bootstrap',
+    'django_gravatar',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +134,6 @@ SITE_ID = 1
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+DEFAULT_FROM_EMAIL = 'davidjryan2000@gmail.com'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

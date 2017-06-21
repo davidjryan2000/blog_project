@@ -1,5 +1,8 @@
 body {
         font-family: Arial;
+        
+        background-image: url(/Desktop/IMG_2035.JPG);
+        
 }
 
 h1 a { 
@@ -14,6 +17,7 @@ h1 a {
 body {
     font-family: Arial;
     padding-top: 50px;
+   
 }
  
 footer {
