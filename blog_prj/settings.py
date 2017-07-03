@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['guarded-bayou-56090.herokuapp.com', 'localhost', '127.0.0.1']
 INTERNAL_IPS = ['127.0.0.1']
 
 
