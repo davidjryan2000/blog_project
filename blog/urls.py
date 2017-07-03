@@ -10,7 +10,7 @@ from . import views
 
 urlpatterns = [
         url(r'^$',post_list),
-        url(r'^(?P<id>\d+)/$', post_detail),
+        url(r'^(?P<id>\d+)/$', post_detail, name='view_post'),
         url(r'^post/new/$', views.new_post, name='new_post'),
         url(r'^(?P<id>\d+)/edit$', views.edit_post),
 ]
